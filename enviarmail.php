@@ -27,6 +27,6 @@ if (@mail($email_to, $asunto ,$contenido ,$cabeceras )) {
 die("Gracias, su mensaje ha sido enviado correctamente. <a href='javascript:history.back(1)'>Click aqui, para regresar al Sitio Web!</a>");
 }else{
 //Si el mensaje no se envía muestra el mensaje de error
-die("Error: Su información no pudo ser enviada, intente más tarde o consulte con el Administrador del Sistema.");
+die("Error: Su información no pudo ser enviada, intente más tarde o consulte con el Administrador del Sistema...");
 }
 ?>
